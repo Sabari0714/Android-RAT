@@ -88,4 +88,4 @@ def build_payload():
             print("[!] Patching/signing failed. You may need to fix the input APK or required tools.")
         print("Sign the APK before installing on your device (option 3) if you want to re-sign manually.")
     except Exception as e:
-        print(f"Exception running msfvenom: {e}")
+        print(f"Exception running msfvenom: {e}") 
